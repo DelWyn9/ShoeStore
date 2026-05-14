@@ -346,9 +346,27 @@ color: #555;
 /* FOOTER */
 .footer {
 display: flex;
+flex-direction: column;
+border-top: 1px solid #ddd;
+}
+
+.footer-content {
+display: flex;
 justify-content: space-around;
 padding: 50px;
+}
+
+.footer-info {
+text-align: center;
+padding: 20px;
+background: #f9f9f9;
 border-top: 1px solid #ddd;
+}
+
+.footer-info p {
+margin: 0;
+font-size: 14px;
+color: #666;
 }
 
 .footer-col h4 {
